@@ -21,6 +21,10 @@ header .logo{
     font-size: 1.6em;
 }
 
+header #home{
+    padding: 52px 30px;
+}
+
 header .container{
 display: flex;
 flex-direction: column;
@@ -53,17 +57,78 @@ header a:hover{
     flex-direction: column;
     height: 100vh;
     color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.heroBabbage{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
         )
     ,url(../img/Babbage.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+}
+
+.heroBerners{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Berners-lee.jpg);    
+}    
+
+.heroClarke{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Clarke.jpg);
+}
+
+.heroHamilton{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Hamilton.jpg);
+}
+
+.heroHopper{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Hopper.jpg);
+}
+
+.heroLovelace{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Lovelace.jpg);
+}
+
+.heroTuring{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../img/Turing.jpg);
 }
 
 #hero h1{
+    color: white;
+}
+
+#hero h3{
     color: white;
 }
